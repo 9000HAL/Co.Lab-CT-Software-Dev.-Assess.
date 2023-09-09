@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Web App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    
+    <div id="bio-section">
+        <h1>About Me</h1>
+        <p>Your bio and professional history goes here.</p>
+    </div>
+
+    <div id="projects-section">
+        <h1>Projects</h1>
+        <!-- Project links -->
+    </div>
+
+        <!-- API data goes here -->
+    <div id="api-section">
+        <h1>API Data</h1>
+        <p>Todo: {{ api_data.title }}</p>
+    </div>
+    
+</body>
+</html>
