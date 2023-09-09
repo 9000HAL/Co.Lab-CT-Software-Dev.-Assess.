@@ -27,3 +27,58 @@ Your submission will be evaluated based on the following criteria:
 Completion of all requirements.
 Creativity in design and layout.
 Content included in your project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Web App</title>
+    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">-->
+    <link rel="stylesheet" href="static/ style.css">
+</head>
+
+
+<body>
+
+    <div id="bio-section">
+        <h1>About Me</h1>
+        <p>Your bio and professional history goes here.</p>
+    </div>
+
+    <div id="projects-section">
+        <h1>Projects</h1>
+        <!-- Project links -->
+    </div>
+
+        <!-- API data goes here -->
+    <div id="api-section">
+        <h1>API Data</h1>
+        <p>Todo: {{ api_data.title }}</p>
+    </div>
+    
+    <div id="database-section">
+        <h1>Database Version</h1>
+        <p>Connected to PostgreSQL version: 13.11 (Ubuntu 13.11-1.pgdg20.04+1) {{ version }}</p>
+    </div>
+    
+</body>
+</html>
