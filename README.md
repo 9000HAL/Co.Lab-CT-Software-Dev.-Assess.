@@ -82,3 +82,99 @@ Content included in your project
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Co.Lab-CT-Assess.</title>
+    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">--->
+    <link rel="stylesheet" href="static/ style.css">
+</head>
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+        <span>Co.Lab <> CT Software Development Assessment</span>
+    </div>
+    
+    <!-- Main Content -->
+    <div style="margin-top: 60px;"> <!-- To avoid overlap with the fixed navbar -->
+        
+        <div id="bio-section">
+            <div>
+                <button class="button1"><h1>About Me</h1></button>
+            </div>
+
+            <div>
+                <button class="button2"><i>I grew up on the central coast of California, from Santa Cruz to Carmel, from the mellow waves at Pleasure Point to the forest mountain trails of Big Sur.</i></button>
+            </div>
+
+            <div>
+                <button class="button3"><i>In Software/Tech for nearly 20 years, from Digital Products at a community newspaper, to Business Development for Series D SF startup, now in Growth Consultant role for AI/ML software enterprise</i></button>
+            </div>
+
+    
+
+        </div>
+    
+        <div id="projects-section">
+            <h1>Projects</h1>
+            <div class="container">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+                <!-- Add more items here -->
+            </div>
+            <!-- Project links -->
+        </div>
+    
+        <!-- API data goes here -->
+        <div id="api-section">
+            <h1>API Data</h1>
+            <p>Todo: {{ api_data.title }}</p>
+        </div>
+
+        <!-- Grid Container -->
+        <div class="container">
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <!-- Add more items here -->
+        </div>
+    
+        <!-- Buttons -->
+        <div>
+            <button class="button">Click Me</button>
+        </div>
+
+        <div id="database-section">
+            <h1>Database Version:</h1>
+            <p>Connected to PostgreSQL version: 13.11 (Ubuntu 13.11-1.pgdg20.04+1) {{ version }}</p>
+        </div>
+    
+    </div>
+</body>
+</html>
+
+
+
+
+
+
