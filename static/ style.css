@@ -4,10 +4,16 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 30px;
-    background-color: aquamarine;
     padding: 40px;
     text-align: center;
     font-weight: bold;
+    /* Linear Gradient from top to bottom with RGBA */
+    background: linear-gradient(
+        to bottom,
+        rgba(240, 234, 214, 0.8),  /* Eggshell */
+        rgba(255, 255, 224, 0.8),  /* Light yellow */
+        rgba(213, 219, 219, 0.8)   /* Foggy/Smoky */
+    );
 }
 
 /* Top Navigation Bar */
@@ -22,13 +28,41 @@ body {
 }
 
 /* Buttons */
-.button {
-    background-color: blue;
+.button1 {
+    background-color: salmon;
     color: white;
-    padding: 10px 20px;
+    padding: 50px 100px;
     text-align: center;
     display: inline-block;
     border-radius: 4px;
+}
+
+.button2 {
+    background-color: teal;
+    color: white;
+    padding: 180px;  /* Adjust this to make the circle size smaller or larger */
+    border-radius: 25%;  /* Makes it a circle */
+    font-size: 18px;  /* Smaller font size */
+    text-align: center; 
+    line-height: 18px;  /* Control line height */
+    width: 100px;  /* Fixed width */
+    height: 100px;  /* Fixed height */
+    display: flex;  /* Using flexbox for centering */
+    justify-content: space-around;  /* Center horizontally */
+     align-items: center; /* Center vertically */
+    overflow: hidden;  /* Hide overflowing text */
+
+
+    /*
+    background-color: teal;
+    color: white;
+    padding: 10px 500px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 20px;
+    */
+
 }
 
 .button:hover {
