@@ -48,12 +48,34 @@ body {
     width: 100px;  /* Fixed width */
     height: 100px;  /* Fixed height */
     display: flex;  /* Using flexbox for centering */
-    justify-content: space-around;  /* Center horizontally */
+    justify-content: center;  /* Center horizontally */
      align-items: center; /* Center vertically */
     overflow: hidden;  /* Hide overflowing text */
+}
 
 
-    /*
+
+.button3 {
+    background-color: lightblue;
+    color: white;
+    padding: 180px;  /* Adjust this to make the circle size smaller or larger */
+    border-radius: 25%;  /* Makes it a circle */
+    font-size: 18px;  /* Smaller font size */
+    text-align: center; 
+    line-height: 18px;  /* Control line height */
+    width: 100px;  /* Fixed width */
+    height: 100px;  /* Fixed height */
+    display: flex;  /* Using flexbox for centering */
+    justify-content: center;  /* Center horizontally */
+     align-items: center; /* Center vertically */
+    overflow: hidden;  /* Hide overflowing text */
+}
+
+
+
+
+
+    /* previous text block format ---- delete
     background-color: teal;
     color: white;
     padding: 10px 500px;
