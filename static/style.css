@@ -16,6 +16,8 @@ body {
     );
 }
 
+
+
 /* Top Navigation Bar */
 .navbar {
     background-color: #333;
@@ -26,7 +28,6 @@ body {
     top: 0;
     z-index: 100;
 }
-
 
 
 
@@ -103,7 +104,7 @@ body {
 
 /* Individual Styling for Project Items */
 .item1 {
-    background-color: lightblue;
+    background-color: gold;
 }
 
 .item2 {
