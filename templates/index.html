@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Co.Lab-CT-Assess.</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
     <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Co.Lab-CT-Assess.</title>
+    
+    
 </head>
+
+
 <body>
 
     <!-- Top Navigation Bar -->
@@ -61,22 +67,46 @@
         </div>
     </div>
 
+<br>
+<br>
 
 
-        <!-- API Section -------------------------->
+        <!-- API Data Section -->
         <div id="api-section">
-            <h1>API Data</h1>
-            <p>Todo: {{ api_data.title }}</p>
+            <h1>API Data: <a href="https://jsonplaceholder.typicode.com/">JSON Placeholder</a></h1>
+            <div class="container">
+                {% for todo in api_data %}
+                    <div class="grid-item">
+                        <p><em>Todo ID:</em> {{ todo.id }}</p>
+                        <p><em>Title:</em> {{ todo.title }}</p>
+                        <!--<p><em>Completed:</em> {{ todo.completed }}</p>-->
+                    </div>
+                {% endfor %}
+            </div>
         </div>
-    
-        <!-- Grid Container -->
+
+
+
+        <!-- Why this API? -->
+        <div id="why-api">
+            <h1>Why JSONPlaceholder?</h1>
+            <p>
+                JSONPlaceholder was chosen for this project as it is a free online REST API that allows for quick & simple fetching of data for testing/prototyping. It provides a wide range of data types including users, todos, posts, and comments, so it is versatile to simulate API calls for various frontend tasks. Its comprehensive documentation & community support further make it an ideal choice for those gaining experience with API integrations -- like me!
+            </p>
+        </div>
+
+
+
+        <!-- Grid Container 
         <div class="container">
             <div class="grid-item">Item 1</div>
             <div class="grid-item">Item 2</div>
             <div class="grid-item">Item 3</div>
-            <!-- Add more items here -->
-        </div>
+            Add more items here 
+        </div>-->
     
+
+
         <!-- Database Section -->
         <div id="database-section">
             <h1>Database Version:</h1>

@@ -54,7 +54,7 @@ body {
     color: white;
     padding: 170px;  /* Adjust this to make the circle size smaller or larger */
     border-radius: 25%;  /* Makes it a circle */
-    font-size: 18px;  /* Smaller font size */
+    font-size: 20px;  /* Smaller font size */
     text-align: center; 
     line-height: 18px;  /* Control line height */
     width: 100px;  /* Fixed width */
@@ -72,7 +72,7 @@ body {
     color: black;
     padding: 170px;  /* Adjust this to make the circle size smaller or larger */
     border-radius: 25%;  /* Makes it a circle */
-    font-size: 18px;  /* Smaller font size */
+    font-size: 20px;  /* Smaller font size */
     text-align: center; 
     line-height: 18px;  /* Control line height */
     width: 100px;  /* Fixed width */
@@ -118,8 +118,8 @@ body {
 
 /* Thumbnail Images */
 .grid-item img {
-    width: 100%;
-    height: 90%;
+    width: 75%;
+    height: 75%;
 }
 
 /* Project Links */
@@ -132,10 +132,6 @@ body {
     margin-top: 10px;
     border-radius: 4px;
 }
-
-
-
-
 
 
 
